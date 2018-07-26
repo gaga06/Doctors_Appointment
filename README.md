@@ -10,8 +10,8 @@ rails: 5.2.0
 
 * Que faire en ouvrant le dossier?
 
-$bundle install
-$rails db:migrate
-$rails db:seed
+# $bundle install
+# $rails db:migrate
+# $rails db:seed
 
 Enjoy!!
