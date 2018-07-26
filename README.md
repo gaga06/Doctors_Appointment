@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###DOCTORS APPOINTMENTS
 
-Things you may want to cover:
+# Versions
+# ruby : 2.5.1
+# rails: 5.2.0
 
-* Ruby version
+##Création: 26/07/2018 par Gaëlle Gorgori
 
-* System dependencies
+###Nous trouvons sur ce fichier une base de données avec de fausses données, qui utilise le système N to N
+Nous avons 3 tables 'Patient', 'Doctor', et 'Appointment'
 
-* Configuration
+* Que faire en ouvrant le dossier?
 
-* Database creation
+$bundle install
+$rails db:migrate
+$rails db:seed
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!!

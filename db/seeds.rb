@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# La gem faker permet de fabriquer de fausses infos pour vérifier que la base de données se remplit correctement.
 require 'faker'
 
 10.times do

@@ -1,3 +1,5 @@
+# Le docteur peut avoir plusieurs patients, et plusieurs RDV. Par contre
+# ils ne se rencontrent qu'à travers un RDV
 class CreateDoctors < ActiveRecord::Migration[5.2]
   def change
     create_table :doctors do |t|
